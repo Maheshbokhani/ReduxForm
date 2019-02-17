@@ -15,7 +15,11 @@
        
 # Steps:
 
-* Install 
-          
-          react-native 
- first
+* Install react-native first
+       
+      $ npm install react-native
+
+* Initialization of a react-native project
+
+      $ npm install react-native
+      
