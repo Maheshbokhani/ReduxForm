@@ -21,5 +21,7 @@
 
 * Initialization of a react-native project
 
-      $ npm install react-native
+      $ react-native init projectname
+ 
+
       
