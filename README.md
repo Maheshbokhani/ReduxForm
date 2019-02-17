@@ -62,71 +62,71 @@
          ------Signin-Signup.js-----
          
               import React, { Component } from 'react';
-import { View,BackHandler, AsyncStorage, ScrollView } from 'react-native';
-import { ButtonGroup } from 'react-native-elements';
-import { Actions } from 'react-native-router-flux';
-import BackButton from '../helper/BackButton'
-import DOBText from '../components/DateOfBirth'
-import Password from '../components/Password';
-import {styles} from '../constants/styles'
-import InputField from '../components/InputText'
-import Buttons from '../components/Buttons'
-import SavePassword from '../components/SavePassword';
-import GenderButton from '../components/GenderButton';
+              import { View,BackHandler, AsyncStorage, ScrollView } from 'react-native';
+              import { ButtonGroup } from 'react-native-elements';
+              import { Actions } from 'react-native-router-flux';
+              import BackButton from '../helper/BackButton'
+              import DOBText from '../components/DateOfBirth'
+              import Password from '../components/Password';
+              import {styles} from '../constants/styles'
+              import InputField from '../components/InputText'
+              import Buttons from '../components/Buttons'
+              import SavePassword from '../components/SavePassword';
+              import GenderButton from '../components/GenderButton';
 
-export default class Sign extends  Component {
-    constructor() {
-        super()
-        this.state = {
-            firstname:'',
-            selected: 1,
-            selectedIndex: 2,
-            date: "",
-            lastname: '',
-            address: '',
-            email: '',
-            password: '',
-            username: '',
-            passwordlogin: true,
-            getemail:'',
-            getpassword:'',
-            isEdit:true,  
-        }
-        this.updateIndex = this.updateIndex.bind(this)
-        this.update = this.update.bind(this)
-        }
+              export default class Sign extends  Component {
+                  constructor() {
+                      super()
+                      this.state = {
+                          firstname:'',
+                          selected: 1,
+                          selectedIndex: 2,
+                          date: "",
+                          lastname: '',
+                          address: '',
+                          email: '',
+                          password: '',
+                          username: '',
+                          passwordlogin: true,
+                          getemail:'',
+                          getpassword:'',
+                          isEdit:true,  
+                      }
+                      this.updateIndex = this.updateIndex.bind(this)
+                      this.update = this.update.bind(this)
+                      }
 
-    updateIndex(selectedIndex) {
-        this.setState({ selectedIndex })
-    }
-    update(selected) {
-        this.setState({ selected })  
-    }
-    firstname = () => {
-        this.setState({
-            firstname: '',
-        })}
-    lastname = () => {
-        this.setState({
-            lastname: '',
-        })}
-    email = () => {
-        this.setState({
-            email: '',
-        })}
-    username = () => {
-        this.setState({
-            username: '',
-        })}
-    switchon = () =>{
-        isOn=false
-    }
-    reset1  = () => { 
-        this.setState({
-            isEdit:true
-        })  }
-   
-   save = async () => {
+                  updateIndex(selectedIndex) {
+                      this.setState({ selectedIndex })
+                  }
+                  update(selected) {
+                      this.setState({ selected })  
+                  }
+                  firstname = () => {
+                      this.setState({
+                          firstname: '',
+                      })}
+                  lastname = () => {
+                      this.setState({
+                          lastname: '',
+                      })}
+                  email = () => {
+                      this.setState({
+                          email: '',
+                      })}
+                  username = () => {
+                      this.setState({
+                          username: '',
+                      })}
+                  switchon = () =>{
+                      isOn=false
+                  }
+                  reset1  = () => { 
+                      this.setState({
+                          isEdit:true
+                      })  }
+
+                 save = async () => {
        
         const { firstname, lastname, email, password } = this.state;
             let obj = {
@@ -171,27 +171,27 @@ export default class Sign extends  Component {
             this.state.selected=1
         }
     
-    login= async() => {
-        let getemail = await AsyncStorage.getItem('EMAIL');
-        let getemail1=JSON.parse(getemail);
-        let getuser = await AsyncStorage.getItem('USERNAME');
-        let getuser1=JSON.parse(getuser);
-        let getpassword = await AsyncStorage.getItem('PASSWORD');
-        let getpassword1=JSON.parse(getpassword);
-        if (getuser1 !== this.state.username  && getpassword1 !== this.state.passwordlogin) {
-          alert('Username and Password are Incorrect!')
-        }else if(getuser1 !== this.state.username){
-            alert('Username is Incorrect!')
-        }
-        else if(getpassword1 !== this.state.passwordlogin){
-          alert('Password are Incorrect!')
-         }
-        else{
-            Actions.page2();
-        }
-       }
- 
-     render() {
+           login= async() => {
+               let getemail = await AsyncStorage.getItem('EMAIL');
+               let getemail1=JSON.parse(getemail);
+               let getuser = await AsyncStorage.getItem('USERNAME');
+               let getuser1=JSON.parse(getuser);
+               let getpassword = await AsyncStorage.getItem('PASSWORD');
+               let getpassword1=JSON.parse(getpassword);
+               if (getuser1 !== this.state.username  && getpassword1 !== this.state.passwordlogin) {
+                 alert('Username and Password are Incorrect!')
+               }else if(getuser1 !== this.state.username){
+                   alert('Username is Incorrect!')
+               }
+               else if(getpassword1 !== this.state.passwordlogin){
+                 alert('Password are Incorrect!')
+                }
+               else{
+                   Actions.page2();
+               }
+              }
+
+            render() {
 
         const buttons1 = ['Sign In', 'Sign Up']
         const { selected } = this.state
@@ -261,7 +261,9 @@ export default class Sign extends  Component {
                                     />
 
 
-                                 <View style={{ marginTop: 5, marginLeft: 35, marginRight: 35, hight: 1, backgroundColor: 'grey', borderColor: 'lightgrey', borderWidth: 1 }}></View>
+                                 <View style={{ marginTop: 5, marginLeft: 35, 
+                                 marginRight: 35, hight: 1, backgroundColor: 'grey', 
+                                 borderColor: 'lightgrey', borderWidth: 1 }}></View>
                          
                                  
                                  <InputField 
