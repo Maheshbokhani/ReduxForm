@@ -1,6 +1,6 @@
 # Simple Login and Signup Form React-native
 
-![](https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native.png)
+![](https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native.png =250x250)
 
 
 
