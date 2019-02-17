@@ -364,8 +364,8 @@
           }
   
   
-  * Then after create Mainpage.js 
-  - this screen open for successfull login completed.
+*  Then after create Mainpage.js 
+-  this screen open for successfull login completed.
   
   
           //------MainPage.js------
