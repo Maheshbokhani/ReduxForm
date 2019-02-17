@@ -10,4 +10,5 @@
 - Uses Nativebase Custom components
 
 # Installation:
-$ 'npm i react-native -g'
+       $ npm install --save react-native-elements
+       $ npm install --save react-native-router-flux
