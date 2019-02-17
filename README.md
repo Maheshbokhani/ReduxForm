@@ -1,8 +1,8 @@
 # Simple Login and Signup Form React-native
 
+
 ![](https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native.png)
 
-<img src="https://camo.githubusercontent.com/..." data-canonical-src="https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native.png" width="200" height="400" />
 
 # Features:
 
