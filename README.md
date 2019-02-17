@@ -9,4 +9,5 @@
 - Supports custom validations & nested forms
 - Uses Nativebase components
 
-
+# Installation:
+$ npm i react-native -g
