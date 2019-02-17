@@ -25,8 +25,8 @@
  
 * Then first of create router flux in add Signup-Signin screen and Mainpage
 
-  --- App.js ---
-
+       ------App.js------
+       
        import React, {Component} from 'react';
        import {} from 'react-native';
        import { Router, Scene, Stack } from 'react-native-router-flux';
