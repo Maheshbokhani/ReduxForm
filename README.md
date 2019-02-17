@@ -12,3 +12,7 @@
 # Installation:
        $ npm install --save react-native-elements
        $ npm install --save react-native-router-flux
+       
+# Steps:
+
+* Install react-native first
