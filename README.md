@@ -1,4 +1,4 @@
-# React Native Login and Signup Form
+# Simple Login and Signup Form React-native
 
 # Features:
 
@@ -25,7 +25,7 @@
  
 * Then first of create router flux in App.js add Signup-Signin.js screen and MainPage.js
 
-       ------App.js------
+       //------App.js------
        
        import React, {Component} from 'react';
        import {} from 'react-native';
@@ -59,7 +59,7 @@
 * Second create Signin-Signup.js form using Buttongroup
 
       
-         ------Signin-Signup.js-----
+         //------Signin-Signup.js-----
          
               import React, { Component } from 'react';
               import { View,BackHandler, AsyncStorage, ScrollView } from 'react-native';
@@ -368,7 +368,7 @@
   - this screen open for successfull login completed.
   
   
-          ------Mainpage.js------
+          //------MainPage.js------
           
           
           import React, {Component} from 'react';
