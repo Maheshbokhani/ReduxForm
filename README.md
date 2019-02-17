@@ -2,7 +2,7 @@
 
 # Features:
 
-Generate Form Fields UI
+Generate Form Fields UI \n
 Manage, track state & values of fields
 Automatically manages focus to next field on submit (TextInput)
 Handle all keyboard related problems smartly
