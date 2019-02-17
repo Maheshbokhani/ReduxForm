@@ -193,21 +193,21 @@
 
             render() {
 
-        const buttons1 = ['Sign In', 'Sign Up']
-        const { selected } = this.state
+               const buttons1 = ['Sign In', 'Sign Up']
+               const { selected } = this.state
 
-        const buttons = ['Male','Female']
-        const { selectedIndex } = this.state
+               const buttons = ['Male','Female']
+               const { selectedIndex } = this.state
 
-        return (
+               return (
 
-              <ScrollView style={{flex: 1, backgroundColor: '#fff' }} >
+                     <ScrollView style={{flex: 1, backgroundColor: '#fff' }} >
 
-                <View style={styles.container}>
+                       <View style={styles.container}>
 
-                   <BackButton onPress={()=>BackHandler.exitApp()}/>
+                          <BackButton onPress={()=>BackHandler.exitApp()}/>
 
-                    <View>
+                           <View>
 
                         <ButtonGroup
                             onPress={this.update}
