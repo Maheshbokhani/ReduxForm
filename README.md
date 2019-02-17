@@ -1,6 +1,6 @@
 # Simple Login and Signup Form React-native
 
-![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png)
+![](https://www.inovex.de/blog/wp-content/uploads/2018/03/react-native.png)
 
 
 
