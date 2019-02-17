@@ -23,5 +23,8 @@
 
       $ react-native init projectname
  
+* Then first of create router flux in add Signup-Sigin screen and Mainpage
+
+---> App.js
 
       
