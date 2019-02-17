@@ -15,4 +15,7 @@
        
 # Steps:
 
-* Install react-native first
+* Install 
+          
+          react-native 
+ first
