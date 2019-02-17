@@ -4,10 +4,10 @@
 
 - Generate Form Fields UI 
 - Manage, track state & values of fields
-- Automatically manages focus to next field on submit (TextInput)
+- Use Asyncstorage in data can set and get.
 - Handle all keyboard related problems smartly
-- Supports custom validations & nested forms
-- Uses Nativebase components
+- Supports custom validations
+- Uses Nativebase Custom components
 
 # Installation:
-$ npm i react-native -g
+$ 'npm i react-native -g'
