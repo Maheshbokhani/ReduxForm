@@ -369,7 +369,7 @@
   
   
 *  Then after create Mainpage.js 
--  this screen open for successfull login completed.
+*  This screen open for successfull login completed.
   
   
           //------MainPage.js------
