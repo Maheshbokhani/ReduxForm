@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 import {} from 'react-native';
 import { Router, Scene } from 'react-native-router-flux';
-import signup from '..//practicaltest/src/screens/sign'
-import mainpage from  '..//practicaltest/src/screens/mainpage'
+import signup from './src/screens/sign'
+import mainpage from  './src/screens/mainpage'
 
 export default class App extends Component {
     render() {
